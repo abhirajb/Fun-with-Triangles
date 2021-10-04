@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangle Checker</title>
+    <link href="styles.css" rel="stylesheet" />
+</head>
+<body>
+<nav class="navigation container">
+    <ul class="list-non-bullet nav-pills">
+        <li class="list-inline">
+            <a class="link active-link" href="/">Home</a>
+        </li>
+        <li class="list-inline">
+            <a class="link" href="/triangleQuiz.html">Quiz</a>
+        </li>
+        <li class="list-inline">
+            <a class="link" href="/AreaCal.html">Area</a>
+        </li>
+        <li class="list-inline">
+            <a class="link" href="/hypoteneusCal.html">Hypoteneus</a>
+        </li>
+
+    </ul>
+</nav>
+<div class="container">
+    <h1>Can we make a traingle with the below Angles?</h1>
+    <div class="container">
+    <label for="angleVal">Angle 1:</label>  
+    <input type="number" class="angleVal"><br>
+</div>
+<div class="container">
+    <label for="angleVal">Angle 2:</label>
+    <input type="number" class="angleVal"><br>
+</div>
+<div class="container">
+    <label for="angleVal">Angle 3:</label>
+    <input type="number" class="angleVal">
+</div>
+<button id="btn">Check</button><br>
+<p id="msg"></p>
+    <script src="triangleChecker.js"></script>
+</body>
+</html>

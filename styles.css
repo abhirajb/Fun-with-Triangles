@@ -1,0 +1,42 @@
+.container{
+    display: box;
+    row-gap: 10px;
+    margin: 10px;
+    
+}
+
+div{
+    text-align: center;
+}
+
+.navigation {
+    background-color: lawngreen;
+    border-bottom-left-radius: 1rem;
+    padding: 1rem 0.5rem;
+    
+}
+
+.navigation .nav-pills{
+    text-align: center;
+}
+
+.navigation .active-link{
+    font-weight: bold;
+}
+
+.navigation .link{
+    color:maroon;
+    font-size: xx-large;
+}
+
+.list-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.list-non-bullet{
+    list-style: none;
+    padding-inline-end: 60px;
+}   
+
+
